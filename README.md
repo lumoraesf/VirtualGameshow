@@ -30,16 +30,16 @@ data/
   pasapalabra_questions.csv
 ```
 
-The application creates missing data files automatically when it starts.
+The application creates missing data files automatically when it starts
 
 ## Main OOP Concepts
 
-- Encapsulation: model fields are private and accessed through methods.
-- Inheritance: `PasapalabraGame` and `TicTacToeGame` extend `Game`.
-- Interfaces: `Game` implements `Saveable`.
-- Polymorphism: game windows work with shared game behavior.
-- Event handling: Swing buttons use action listeners.
-- File I/O: users, saved games, questions, and statistics use local files.
+- Encapsulation: model fields are private and accessed through methods
+- Inheritance: `PasapalabraGame` and `TicTacToeGame` extend `Game`
+- Interfaces: `Game` implements `Saveable`
+- Polymorphism: game windows work with shared game behavior
+- Event handling: Swing buttons use action listeners
+- File I/O: users, saved games, questions, and statistics use local files
 
 ## Storage Format
 
